@@ -1,0 +1,91 @@
+.container {
+  padding-top:20px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: aqua;
+}
+
+p {
+  font-size: 2rem;
+  color: aqua;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+a{
+  background-color: black;
+    height:0.5rem;
+    position:absolute;
+    right:160px;
+    bottom:150px;
+    display:inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+    animation: a_color .5s ease-in-out infinite alternate;
+}
+@keyframes a_color {
+  0% {
+      text-shadow: 0 0 10px aqua,
+          0 0 20px aqua, 0 0 30px darkblue
+  }
+
+  100% {
+      text-shadow: 0 0 5px aqua,
+          0 0 10px aqua, 0 0 15px darkblue
+  }
+}
+.icon {
+	background-color: black;
+    height:1rem;
+    position: absolute;
+    right:50px;
+    padding-top:5px;
+    display:inline;
+    margin-right:40px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #fff;
+    animation: first_color .5s ease-in-out infinite alternate;
+    /*Since the icons share similar animation properties we will just add it here then change the animation name.*/
+}
+@keyframes first_color {
+  0% {
+      text-shadow: 0 0 10px aqua,
+          0 0 20px aqua, 0 0 30px yellowgreen
+  }
+
+  100% {
+      text-shadow: 0 0 5px aqua,
+          0 0 10px aqua, 0 0 15px yellowgreen
+  }
+}
+
